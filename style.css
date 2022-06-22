@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburger {
+  cursor: pointer;
+  height: 22px;
+}
+
+.line {
+  width: 25px;
+  height: 4px;
+  background: black;
+  margin-bottom: 5px;
+}
+
+.l-1::after,
+.l-3::after {
+  width: 10px;
+  height: 4px;
+  content: "";
+  position: absolute;
+  top: 0;
+  background: black;
+  right: 0;
+}
